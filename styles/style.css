@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin:0;
+    font-family: karla;
 }
 Img{
     max-inline-size: 100%;
@@ -11,12 +12,93 @@ Img{
 :root{
     --Cyan: hsl(179, 62%, 43%);
     --BrightYellow: hsl(71, 73%, 54%);
-    --LightGray: hsl(204, 43%, 93%);
-    --GrayishBlue: hsl(218, 22%, 67%);
+    --LightGray: hsl(0, 0%, 71%);
+    --GrayishBlue: hsl(220, 71%, 92%);
+}
+body{
+    background-color: hsl(204, 43%, 93%);
 }
 main{
-    width:300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
 }
+button{
+    background-color: var(--BrightYellow);
+    width: 220px;
+    height: 40px;
+    margin-top:20px ;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 36%);
+}
+.grid_container{
+    display: grid;
+    grid-template-columns:  auto;
+       
+}
+.inner_grid{
+    display: grid;
+    grid-template-columns:  300px 300px;    
+}
+/*Styling for seperate cards*/
+.top-card{
+    background-color: rgb(255, 255, 255);
+    padding: 40px; 
+    width: 520px;
+    border-radius:8px 8px 0 0 ;  
+}
+.mid-card{
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px; 
+    border-radius:0 0 0 8px ;   
+}
+.bottom-card{
+    background-color: hsl(179, 43%, 54%);
+    padding: 40px; 
+    border-radius: 0 0 8px 0;  
+    color: white;
+}
+/*Styling for seperate cards*/
+/*font Styling */
+.join{
+    color:var(--Cyan);
+    font-size: 1.3rem;
+}
+.guarantee{
+    color:var(--BrightYellow);
+    margin-top: 20px;
+}
+.text{
+    font-size: 0.9rem;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.subscription{
+    color: white;
+    font-size: 1rem;
+}
+.price{
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    margin-top: 15px;
+
+}
+.month{
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-weight: 100px;
+}
+.full_access{
+    font-size: 0.9rem;
+    line-height: 25px;
+    margin-top: 5px;
+}
+/*font Styling */
+/*bottom-card styling */
+
+
+
