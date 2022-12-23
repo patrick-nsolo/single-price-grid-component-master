@@ -1,4 +1,7 @@
 @media screen and (max-width:600px){
+    main{
+        margin-top: 20px;
+    }
     .join {
         font-size: 1rem;
     }

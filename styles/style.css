@@ -33,9 +33,9 @@ button{
     border-radius: 5px;
     box-shadow: 1px 1px 10px hsl(0, 0%, 36%);
 }
-.grid_container{
-    display: grid;
-    grid-template-columns:  auto;   
+
+.why{
+    font-size: 1rem;
 }
 .inner_grid{
     display: grid;
