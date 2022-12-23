@@ -1,4 +1,32 @@
-@media screen and (min-width:600px){
+@media screen and (max-width:600px){
+    .join {
+        font-size: 1rem;
+    }
+    .guarantee{
+        font-size: 0.8rem;
+        margin-top:10px
+    }
+    .text{
+        font-size: 0.7rem;
+
+    }
+    .grid_container{
+        display: block; 
+        width: 300px; 
+    }
+    .inner_grid{
+        display: block;
+    }
+    .top-card{
+        width: 220px;
+    }
+    .mid-card{
+        border-radius:0px;
+    }
+    .bottom-card{
+        border-bottom-left-radius: 7px;
+
+    }
     
     
 
