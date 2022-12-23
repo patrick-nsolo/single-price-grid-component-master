@@ -33,6 +33,10 @@ button{
     border-radius: 5px;
     box-shadow: 1px 1px 10px hsl(0, 0%, 36%);
 }
+button:hover{
+    background-color: hsl(71, 60%, 43%);
+    cursor: pointer;
+}
 
 .why{
     font-size: 1rem;
